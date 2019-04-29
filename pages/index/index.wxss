@@ -1,0 +1,172 @@
+.titles {
+  width: 100%;
+  height: 100rpx;
+  background: #f5f5f5;
+  font-size: 30rpx;
+  color: rgba(7, 7, 7, 1);
+  line-height: 100rpx;
+  border-top: 1rpx solid #dadada;
+  border-bottom: 1rpx solid #dadada;
+}
+
+.body {
+  background: #f5f5f5;
+  padding-bottom: 80rpx;
+}
+
+.titles text {
+  color: #999;
+  font-size: 26rpx;
+}
+
+.titles1 {
+  margin-left: 30rpx;
+}
+
+.addlaogong {
+  height: 478rpx;
+  width: 750rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.addlaogong image {
+  width: 280rpx;
+  height: 280rpx;
+}
+
+.listadd1 {
+  width: 750rpx;
+  height: 100rpx;
+  border-bottom: 1rpx solid #dfdfdf;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 30rpx;
+  background: #fff;
+}
+
+.name1 {
+  width: 110rpx;
+  border-right: 1rpx solid #dfdfdf;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+}
+
+.content {
+  width: 500rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: left;
+  color: rgba(102, 102, 102, 1);
+  text-indent: 20rpx;
+}
+
+.read {
+  text-align: right;
+  width: 100rpx;
+  margin-right: 20rpx;
+  color: rgba(35, 165, 227, 1);
+}
+
+.flexl {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.listadd2 .name1 {
+  width: 170rpx;
+  text-align: left;
+  text-indent: 20rpx;
+}
+
+.noborderbottom {
+  border-bottom: none;
+}
+
+.listadd1 input {
+  line-height: 70rpx;
+  height: 70rpx;
+  text-indent: 0;
+  margin-left: 10rpx;
+}
+
+.listadd1 .icon {
+  text-align: right;
+  color: #e0e0e3;
+  margin-left: 30rpx;
+}
+
+.other {
+  width: 150rpx;
+}
+
+.sfz1 image {
+  width: 250rpx;
+  height: 154rpx;
+  margin-bottom: 20rpx;
+}
+
+.sfz1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30rpx;
+  color: rgba(102, 102, 102, 1);
+}
+
+.sfz {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 250rpx;
+  background: #fff;
+}
+
+.add {
+  width: 590rpx;
+  height: 80rpx;
+  background: #fff;
+  border: 1rpx solid rgba(55, 178, 228, 1);
+  color: rgba(55, 178, 228, 1);
+  line-height: 80rpx;
+  text-align: center;
+  margin: 40rpx auto;
+  margin-bottom: 0;
+}
+
+.listadd3 {
+  width: 100%;
+  height: 100rpx;
+  background: #fff;
+  border-bottom: 1rpx solid #dfdfdf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listadd4 {
+  border: 1rpx solid rgba(34, 166, 226, 1);
+  width: 280rpx;
+  height: 56rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(34, 166, 226, 1);
+  border-radius: 20rpx;
+  font-size: 30rpx;
+}
+
+.norightborder {
+  border-right: none;
+}
+
+.mt20 {
+  margin-top: 20rpx;
+  border-top: 1rpx solid #dfdfdf;
+}

@@ -1,0 +1,48 @@
+<view class='body'>
+  <view class='titles'>
+    <view class='titles1'>身份信息
+    </view>
+  </view>
+  <view class='listadd1'>
+    <view class='name1'>姓名</view>
+    <view class='content'>
+      <input disabled value='{{name}}' bindinput="updateValue" data-name='name'></input>
+    </view>
+  </view>
+  <view class='listadd1'>
+    <view class='name1'>证件</view>
+    <view class='content'>
+      <input disabled value='{{idCardNo}}' bindinput="updateValue" data-name='idCardNo'></input>
+    </view>
+  </view>
+  <view class='sfz'>
+    <view class='sfz1' bindtap='uploadfile' data-id='1'>
+      <image wx:if="{{idCardFrontImg==''}}" src='../../assets/images/sfz1.png'></image>
+      <image wx:else src='{{idCardFrontImg}}'></image>
+      <view>身份证头像面照片</view>
+    </view>
+    <view class='sfz1' bindtap='uploadfile' data-id='2'>
+      <image wx:if="{{idCardBackImg==''}}" src='../../assets/images/sfz2.png'></image>
+      <image wx:else src='{{idCardBackImg}}'></image>
+      <view>身份证国徽面照片</view>
+    </view>
+  </view>
+  <view class='titles'>
+    <view class='titles1'>银行卡信息
+      <text>（非必填）</text>
+    </view>
+  </view>
+  <view class='listadd1'>
+    <view class='name1'>卡号</view>
+    <view class='content'>
+      <input disabled value='{{bankCardNo}}' bindinput="updateValue" data-name='bankCardNo' placeholder='点击右侧图标扫描或手动输入卡号'></input>
+    </view>
+    <view class='read' bindtap='uploadfile' data-id='4'>扫一扫</view>
+  </view>
+  <view class='listadd1 noborderbottom flexl'>
+    <view class='name1'>名称</view>
+    <view class='content'>
+      <input disabled value='{{bankCardName}}' bindinput="updateValue" data-name='bankCardName' placeholder='请输入开户行名称'></input>
+    </view>
+  </view>
+</view>
